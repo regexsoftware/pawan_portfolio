@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Segun Olanitori | Portfolio </title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist\bootstrap-4.3.1-dist\js\bootstrap.min.js"> -->
+</head>
+<div id="totop"></div>
+
+<body>
+    <section class="header">
+        <div class="navigation">
+            <a href="index.html">
+                <div class="logo"><i class="fa fa-street-view" aria-hidden="true"></i> Pawan </div>
+            </a>
+            <ul id="ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#aboutme">About</a></li>
+                <li><a href="#skilltext">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <i class="fa fa-bars" aria-hidden="true" id="hamburger"></i>
+        </div>
+        <div class="intro" data-aos="fade-up">
+            <i>Welcome to my Portfolio!</i>
+            <p class="myname"> <span style="color: white">I am</span> Pawan Kumar </p>
+            <i>  Web Developer / Designer </i>
+        </div>
+    </section>
+
+    <section class="content">
+
+        <div class="aboutwrapper">
+            <div id="aboutme" data-aos="fade-up">About Me <i class="fa fa-book" aria-hidden="true"></i></div>
+            <div class="aboutmegrid">
+                <div class="aboutmeimage" data-aos="fade-right"><img src="pawan-img.jpg" alt="aboutme"
+                        id="aboutmeimage"></div>
+                <div class="aboutmetext" data-aos="fade-right">I am pawan, a web technology enthusiast based in Jaipur, Rajasthan.
+                    I build modern responsive websites.
+                    I love to solve problems and I am passionate about learning new
+                    things. I am currently as an freelance web developer and designer.
+                    <br> Outside of Web
+                    Development, I am a B.Tech (C.S) passwout from VIT Jaipur.</div>
+            </div>
+        </div>
+
+        <div class="skillswrapper">
+            <div id="skilltext" data-aos="fade-down"> SKILLS <i class="fa fa-bolt" aria-hidden="true"></i></div>
+            <div class="skillsgrid" data-aos="flip-up">
+                <div class="skills">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <br>
+                    <h2>HTML</h2>
+                    <p>Hyper Text Markup Language is the standard MarkUp language for documents to be displayed on a web
+                        browser</p>
+                </div>
+                <div class="skills">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <br>
+                    <h2>CSS3</h2>
+                    <p>Cascading Style Sheet styles HTML documents so they can come out good for better user experience
+                        and interface</p>
+
+                </div>
+                <div class="skills">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <br>
+                    <h2>Vanilla JavaScript</h2>
+                    <p>Javascript adds interactivity to webpages and it is used to create web apps.</p>
+
+                </div>
+                <div class="skills">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <br>
+                    <h2>BootStrap 4</h2>
+                    <p> A rich CSS framework developed by Twitter for building easy and responsive layouts.</p>
+                </div>
+            </div>
+            <div id="lessons"> Frameworks Working with : <i class="fa fa-pencil" aria-hidden="true"></i> </div>
+            <div class="skillslearning">
+                <div class="skills" data-aos="flip-left">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <br>
+                    <h2>JQuery</h2>
+                    <p> A rich Javascript Library for writing less javascript code. It is widely used for animation and
+                        selecting the DOM.</p>
+                </div>
+                <div class="skills" data-aos="flip-right">
+                    <i class="fa fa-code" aria-hidden="true"></i>
+                    <br>
+                    <h2>ReactJs</h2>
+                    <p> A Javascript Framework developed by Facebook for building fast web apps and user interfaces.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="contactwrapper">
+            <div id="contact">CONTACT ME <i class="fa fa-external-link" aria-hidden="true"></i> </div>
+            <div class="contactgrid" data-aos="zoom-in">
+                <a href="http://instagram.com/pawan_chaudhari" target="_blank"> <i class="fa fa-instagram"
+                        aria-hidden="true"></i></a>
+                <a href="http://facebook.com/pawanchaudhari" target="_blank"> <i class="fa fa-facebook"
+                        aria-hidden="true"></i></a>
+                <a href="http://linkedin.com/pawanchaudhari" target="_blank"><i class="fa fa-linkedin"
+                        aria-hidden="true"></i></a>
+                <i class="fa fa-envelope" aria-hidden="true" style="position: relative">
+                    <span class="emailaddress"> pcashok0@gmail.com <br></i>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        2019 <i class="fa fa-copyright" aria-hidden="true"> </i>  REGex Startup Services 
+        <br>
+        Site maintained and designed by <a href="https://regexstartupservices.com/" > REGex Startup Services </a>
+    </footer>
+    <!-- FIXED ARROW TO TOP OF THE PAGE -->
+    <a href="#totop" class="fa fa-angle-up" id="fixedarrow"></a>
+
+    <!-- SCRIPT TAG SECTION -->
+     <script src='app.js'></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out',
+            duration: 500,
+        });
+    </script>
+   
+</body>
+
+</html>
